@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-cd /Users/agelter/src/bimmer-scrape || true
-
 bash ./getResults.sh
 
 python3 ./parseResults.py > current_results.json

@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-cd /Users/agelter/src/bimmer-scrape || true
-
 source venv/bin/activate
 
 rm -f ./dealercom_results.json ./dealeron_results.json ./dealerinspire_results.json
