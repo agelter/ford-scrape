@@ -5,7 +5,7 @@ import logging
 from . import util
 
 # spider for dealer.com templated websites
-class BimmerDealerinspireSpider(scrapy.Spider):
+class FordDealerinspireSpider(scrapy.Spider):
     name = 'ford_dealerinspire'
 
     dealers = [

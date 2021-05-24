@@ -2,7 +2,7 @@ import scrapy
 
 
 # spider for dealer.com templated websites
-class BimmerDealeronSpider(scrapy.Spider):
+class FordDealeronSpider(scrapy.Spider):
     name = 'ford_dealeron'
 
     dealers = [

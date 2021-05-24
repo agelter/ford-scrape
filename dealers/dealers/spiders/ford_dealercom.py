@@ -10,7 +10,7 @@ INVENTORY_PATH = '/apis/widget/INVENTORY_LISTING_DEFAULT_AUTO_NEW:inventory-data
 
 
 # spider for dealer.com templated websites
-class BimmerDealercomSpider(scrapy.Spider):
+class FordDealercomSpider(scrapy.Spider):
     name = 'ford_dealercom'
 
     dealers = [
