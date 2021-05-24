@@ -6,71 +6,39 @@ from . import util
 
 # spider for dealer.com templated websites
 class BimmerDealerinspireSpider(scrapy.Spider):
-    name = 'bimmer_dealerinspire'
-    
-    dealers = [
-        {
-            "name": 'BMW of Springfield',
-            "url": 'https://www.bmwofspringfieldnj.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwofspringfieldnj.com/en',
+    name = 'ford_dealerinspire'
 
-        },
+    dealers = [
+        # disabled: protected by CloudFlare
+        #{
+        #    "name": 'Capitol Ford',
+        #    "url": 'https://www.capitolford.com/new-vehicles/mustang-mach-e/',
+        #    "ajax_url": 'https://www.capitolford.com/en',
+        #    "settings": {
+        #        "_referer": "/new-vehicles/mustang-mach-e/"
+        #    }
+        #}
         {
-            "name": 'BMW of Tenafly',
-            "url": 'https://www.bmwoftenafly.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwoftenafly.com/en',
-        },
-        {
-            "name": 'Circle BMW',
-            "url": 'https://www.circlebmw.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.circlebmw.com/en',
+            "name": 'Towne Ford',
+            "url": 'https://www.towneford.com/new-vehicles/',
+            "ajax_url": 'https://www.towneford.com/en',
             "settings": {
-                "_referer": "/new-vehicles/new-bmw-x3-for-sale-eatontown-nj/"
+                "_referer": "/new-vehicles/mustang-mach-e/"
             }
-        },
-        {
-            "name": 'BMW of Turnersville',
-            "url": 'https://www.bmwofturnersville.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwofturnersville.com/en',
-        },
-        {
-            "name": 'BMW of Atlantic City',
-            "url": 'https://www.bmwatlanticcity.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwatlanticcity.com/en',
-        },
-        {
-            "name": 'BMW of Greenwich',
-            "url": 'https://www.bmwofgreenwich.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwofgreenwich.com/en',
-        },
-        {
-            "name": 'Continental BMW of Darien',
-            "url": 'https://www.bmwdarien.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwdarien.com/en',
-        },
-        {
-            "name": 'BMW of Ridgefield',
-            "url": 'https://www.bmwofridgefield.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwofridgefield.com/en',
-        },
-        {
-            "name": 'BMW of Bridgeport',
-            "url": 'https://www.bmwofbridgeport.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwofbridgeport.com/en',
-        },
-        {
-            "name": 'BMW of North Haven',
-            "url": 'https://www.bmwofnorthhaven.com/new-vehicles/x3/',
-            "ajax_url": 'https://www.bmwofnorthhaven.com/en',
-        },
-        {
-            "name": "Otto \'s BMW",
-            "url": 'https://www.ottosbmw.com/new-car/x3/',
-            "ajax_url": 'https://www.ottosbmw.com/en',
-            "settings": {
-                "_referer": "/new-car/x3/"
-            }
-        },
+        }
+        #{
+        #    "name": 'BMW of Springfield',
+        #    "url": 'https://www.bmwofspringfieldnj.com/new-vehicles/x3/',
+        #    "ajax_url": 'https://www.bmwofspringfieldnj.com/en',
+        #},
+        #{
+        #    "name": 'Circle BMW',
+        #    "url": 'https://www.circlebmw.com/new-vehicles/x3/',
+        #    "ajax_url": 'https://www.circlebmw.com/en',
+        #    "settings": {
+        #        "_referer": "/new-vehicles/new-bmw-x3-for-sale-eatontown-nj/"
+        #    }
+        #},
     ]
 
     def start_requests(self):
