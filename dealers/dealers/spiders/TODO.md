@@ -1,6 +1,8 @@
 # TODO
 
-## Dealercom
+## CA
+
+### Dealercom
 
 - [x] [Frontier Ford](https://www.frontierford.com/new-inventory/index.htm?model=Mustang%20Mach-E&sortBy=internetPrice+desc&')
 - [x] [Sunnyvale Ford](https://www.sunnyvaleford.com/new-inventory/index.htm?model=Mustang%20Mach-E&sortBy=internetPrice+desc&)
@@ -28,8 +30,12 @@
 - [x] [Mullahey Ford (Arroyo Grande)](https://www.mullaheyford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
 - [x] [Perry Ford (San Luis Obispo)](https://www.perryfordofsanluis.com/new-inventory/index.htm?model=Mustang%20Mach-E)
 - [x] [Paso Robles Ford](https://www.pasoford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Auburn Ford](https://www.auburnford.net/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Harrold Ford (Sacramento)](https://www.harroldford.net/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Folsom Lake Ford](https://www.folsomlakeford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Downtown Ford (Sacramento)](https://www.dtfords.com/new-inventory/index.htm?model=Mustang%20Mach-E)
 
-## Dealeron
+### Dealeron
 
 - [x] [North Bay Ford](https://www.northbayford.com/searchnew.aspx?Type=N&Year=2021&Make=Ford&Model=Mustang%20Mach-E')
 - [x] [Watsonville Ford](https://www.watsonvilleford.com/searchnew.aspx?Type=N&Year=2021&Make=Ford&Model=Mustang%20Mach-E')
@@ -41,14 +47,52 @@
 - [x] [Santos Ford](https://www.santosford.net/searchnew.aspx?Model=Mustang%20Mach-E)
 - [x] [Greenwood Ford (Hollister)](https://www.teamgreenwoodford.com/searchnew.aspx?Model=Mustang+Mach-E)
 - [x] [Woodland Ford](https://www.woodlandford.com/searchnew.aspx?Model=Mustang%20Mach-E)
+- [x] [Future Ford (Roseville)](https://www.futureford.com/searchnew.aspx?Model=Mustang%20Mach-E)
+- [x] [Future Ford (Sacramento)](https://www.futurefordofsacramento.com/searchnew.aspx?Model=Mustang%20Mach-E)
 
-## Dealer Inspire (currently not working)
+### Dealer Inspire (currently not working)
 
 - [ ] [Capitol Ford](https://www.capitolford.com/new-vehicles/mustang-mach-e/) protected by CloudFlare
 - [ ] [Price Ford of Turlock](https://www.pricefordofturlock.com/inventory/new-vehicles/models=Ford_Mustang%20Mach-E)
 - [ ] [W.C. Sanderson Ford](https://www.wcsandersonford.com/inventory/new-vehicles/models=Ford_Mustang)
 
-## Unknown
+### Unknown
 
 - [ ] [Towne Ford](https://www.towneford.com/inventory/new-vehicles/models=Ford_Ranger_XL)
 - [ ] [Ford Fairfield](https://www.fordfairfield.com/inventory?category=new&vehicle=ford@mustang%2Bmach-e)
+- [ ] [Elk Grove Ford](https://www.elkgroveford.com/cars-for-sale?condition=new&model=mustang-mach-e)
+
+## UT
+
+### Dealercom
+
+- [x] [Ken Garff (American Fork)](https://www.kengarfffordaf.com/all-inventory/index.htm?year=2021&make=Ford&model=Mustang%20Mach-E)
+- [x] [Wilson Motor Ford (Logan)](https://www.wilsonmotorford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Tim Dahle Ford (Spanish Fork)](https://www.timdahleford.net//new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Performance Fod (Bountiful)](https://www.performancefordbountiful.com/searchnew.aspx?Model=Mustang%20Mach-E)
+- [x] [Young Automotive Group (Brigham City)](https://www.youngfordbrigham.net/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Crandall Ford (Park City)](https://www.crandallford.net/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Young Automotive Group (Morgan)](https://www.youngfordmorgan.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Larry H Miller Ford (Provo)](https://www.larryhmillerfordprovo.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Labrum Ford (Heber City)](https://www.labrumford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Larry H Miller Ford (Salt Lake City)](https://www.lhmford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Tooele Ford](https://www.tooeleford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Ken Garff Ford (American Fork)](https://www.kengarfffordaf.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Larry H Miller Ford (Draper)](https://www.lhmforddraper.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Ed Kenley Ford (Layton)](https://www.edkenleyford.net/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Young Automotive Group (Ogden)](https://www.youngfordogden.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [Ken Garff Ford (West Valley)](https://www.kengarffwestvalleyford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+- [x] [St George Ford](https://www.stgeorgeford.com/new-inventory/index.htm?model=Mustang%20Mach-E)
+
+### Dealeron
+
+- [x] [Price Ford](https://www.pricefordsales.com/searchnew.aspx?Model=Mustang%20Mach-E)
+- [x] [Murdock Ford (Santaquin)](https://www.murdockford.com/searchnew.aspx?Model=Mustang%20Mach-E)
+
+
+### Dealer Inspire (currently not working)
+
+
+### Unknown
+
+- [ ] [Towne Ford](https://www.towneford.com/inventory/new-vehicles/models=Ford_Ranger_XL)

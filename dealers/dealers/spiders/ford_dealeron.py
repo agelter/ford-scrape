@@ -56,6 +56,31 @@ class FordDealeronSpider(scrapy.Spider):
             "url": 'https://www.woodlandford.com/searchnew.aspx?Model=Mustang%20Mach-E',
             "settings": {}
         },
+        {
+            "name": 'Price Ford',
+            "url": 'https://www.pricefordsales.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "settings": {}
+        },
+        {
+            "name": 'Murdock Ford (Santaquin)',
+            "url": 'https://www.murdockford.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "settings": {}
+        },
+        {
+            "name": 'Performance Ford (Bountiful)',
+            "url": 'https://www.performancefordbountiful.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "settings": {}
+        },
+        {
+            "name": 'Future Ford (Roseville)',
+            "url": 'https://www.futureford.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "settings": {}
+        },
+        {
+            "name": 'Future Ford (Sacramento)',
+            "url": 'https://www.futurefordofsacramento.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "settings": {}
+        },
     ]
 
     def start_requests(self):
@@ -67,26 +92,25 @@ class FordDealeronSpider(scrapy.Spider):
         UL_XPATH = '//*[@class="row srpVehicle hasVehicleInfo"]'
 
         for ul in response.xpath(UL_XPATH):
-                yield {
-                    'dealer': dealer_name,
-                    'url': response.url,
-                    'title': "%s %s %s %s" % (ul.xpath('@data-year').get(), ul.xpath('@data-make').get(),ul.xpath('@data-model').get(),ul.xpath('@data-trim').get()),
-                    'msrp': ul.xpath('@data-msrp').get(),
-                    'price': ul.xpath('@data-price').get(),
-                    'vin': ul.xpath('@data-vin').get(),
-                    'exteriorColor': ul.xpath('@data-extcolor').get(),
-                    'interiorColor': ul.xpath('@data-intcolor').get(),
-                    'engine': ul.xpath('@data-engine').get(),
-                    'trim': ul.xpath('@data-trim').get(),
-                    'options': []
-                }
+            yield {
+                'dealer': dealer_name,
+                'url': response.url,
+                'title': "%s %s %s %s" % (ul.xpath('@data-year').get(), ul.xpath('@data-make').get(),
+                                          ul.xpath('@data-model').get(), ul.xpath('@data-trim').get()),
+                'msrp': ul.xpath('@data-msrp').get(),
+                'price': ul.xpath('@data-price').get(),
+                'vin': ul.xpath('@data-vin').get(),
+                'exteriorColor': ul.xpath('@data-extcolor').get(),
+                'interiorColor': ul.xpath('@data-intcolor').get(),
+                'engine': ul.xpath('@data-engine').get(),
+                'trim': ul.xpath('@data-trim').get(),
+                'options': []
+            }
 
-        #NEXT_PAGE = '/html/body/div[3]/div[2]/div/div[3]/div[2]/div[2]/form/div/div[3]/div/div/div[2]/ul/li[3]/a/@href'
-        #next_page = response.xpath(NEXT_PAGE).get()
-        #if next_page is not None:
-        #    yield response.follow(next_page, self.parse)
-
-
+        # NEXT_PAGE = '/html/body/div[3]/div[2]/div/div[3]/div[2]/div[2]/form/div/div[3]/div/div/div[2]/ul/li[3]/a/@href'
+        # next_page = response.xpath(NEXT_PAGE).get()
+        # if next_page is not None:
+        #     yield response.follow(next_page, self.parse)
 
 # StratosDealerEngine
 #   scraping logic

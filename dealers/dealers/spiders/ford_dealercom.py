@@ -196,6 +196,146 @@ class FordDealercomSpider(scrapy.Spider):
                 "inventory_query": True,
             }
         },
+        {
+            "name": 'Ken Garff Ford (American Fork)',
+            "url": 'https://www.kengarfffordaf.com/new-inventory/index.htm?year=2021&make=Ford&model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Wilson Motor Ford (Logan)',
+            "url": 'https://www.wilsonmotorford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Tim Dahle Ford (Spanish Fork)',
+            "url": 'https://www.timdahleford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Young Automotive Group (Brigham City)',
+            "url": 'https://www.youngfordbrigham.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Crandall Ford (Park City)',
+            "url": 'https://www.crandallford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Young Automotive Group (Morgan)',
+            "url": 'https://www.youngfordmorgan.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Larry H Miller Ford (Provo)',
+            "url": 'https://www.larryhmillerfordprovo.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Labrum Ford (Heber City)',
+            "url": 'https://www.labrumford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Larry H Miller Ford (Salt Lake City)',
+            "url": 'https://www.lhmford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Tooele Ford',
+            "url": 'https://www.tooeleford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Ken Garff Ford (American Fork)',
+            "url": 'https://www.kengarfffordaf.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Larry H Miller Ford (Draper)',
+            "url": 'https://www.lhmforddraper.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Ed Kenley Ford (Layton)',
+            "url": 'https://www.edkenleyford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Young Automotive Group (Ogden)',
+            "url": 'https://www.youngfordogden.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Ken Garff Ford (West Valley)',
+            "url": 'https://www.kengarffwestvalleyford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'St George Ford',
+            "url": 'https://www.stgeorgeford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Auburn Ford',
+            "url": 'https://www.auburnford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Harrold Ford (Sacramento)',
+            "url": 'https://www.harroldford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Folsom Lake Ford',
+            "url": 'https://www.folsomlakeford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
+        {
+            "name": 'Downtown Ford (Sacramento)',
+            "url": 'https://www.dtfords.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "settings": {
+                "inventory_query": True,
+            }
+        },
     ]
 
     def start_requests(self):
