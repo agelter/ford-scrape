@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source venv/bin/activate
+source ./.venv/bin/activate
 
 rm -f ./dealercom_results.json ./dealeron_results.json ./dealerinspire_results.json
 
@@ -11,7 +11,7 @@ rm -f ./dealercom_results.json ./dealeron_results.json ./dealerinspire_results.j
     #scrapy crawl ford_dealerinspire -o ../dealerinspire_results.json
 )
 
-/usr/local/bin/jq -s 'flatten' dealercom_results.json dealeron_results.json > combined_results.json
+jq -s 'flatten' dealercom_results.json dealeron_results.json > combined_results.json
 
 rm -f ./dealercom_results.json ./dealeron_results.json ./dealerinspire_results.json
 

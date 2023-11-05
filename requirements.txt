@@ -1,2 +1,6 @@
 Js2Py==0.70
-Scrapy==2.1.0
+cryptography==38.0.4
+pyopenssl==22.0.0
+Twisted==21.7.0
+parsel==1.7.0
+Scrapy==2.4.1

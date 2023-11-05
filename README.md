@@ -15,8 +15,8 @@ The easiest way to set this up is to use a python virtual environment. These ins
 python 3:
 
 ```bash
-python3 -mvenv ./venv
-source env/bin/activate
+python3 -mvenv ./.venv
+source ./.venv/bin/activate
 pip install -r requirements.txt
 cd dealers
 scrapy crawl ford_dealercom -o ../dealercom_results.json

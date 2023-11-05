@@ -8,77 +8,77 @@ class FordDealeronSpider(scrapy.Spider):
     dealers = [
         {
             "name": 'North Bay Ford',
-            "url": 'https://www.northbayford.com/searchnew.aspx?Type=N&Year=2021&Make=Ford&Model=Mustang%20Mach-E',
+            "url": 'https://www.northbayford.com/searchnew.aspx?Type=N&Year=2021&Make=Ford&Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Watsonville Ford',
-            "url": 'https://www.watsonvilleford.com/searchnew.aspx?Type=N&Year=2021&Make=Ford&Model=Mustang%20Mach-E',
+            "url": 'https://www.watsonvilleford.com/searchnew.aspx?Type=N&Year=2021&Make=Ford&Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Ford Store Morgan Hill',
-            "url": 'https://www.fordstoremorganhill.com/car-dealer-san-jose-ca.html?Bodystyle=Premium&Model=Mustang+Mach-E&Year=2021',
+            "url": 'https://www.fordstoremorganhill.com/car-dealer-san-jose-ca.html?Bodystyle=Premium&Model=Maverick&Year=2021',
             "settings": {}
         },
         {
             "name": 'Mission Valley Ford',
-            "url": 'https://www.missionvalleyford.com/searchnew.aspx?Type=N&Make=Ford&Model=Mustang%20Mach-E',
+            "url": 'https://www.missionvalleyford.com/searchnew.aspx?Type=N&Make=Ford&Model=Maverick',
             "settings": {}
         },
         {
             "name": 'James Ford (Half Moon Bay)',
-            "url": 'https://www.jamesford.com/searchnew.aspx?Type=N&Model=Mustang%20Mach-E',
+            "url": 'https://www.jamesford.com/searchnew.aspx?Type=N&Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Future Ford (Concord)',
-            "url": 'https://www.futurefordofconcord.com/searchnew.aspx?Make=Ford&Model=Mustang%20Mach-E',
+            "url": 'https://www.futurefordofconcord.com/searchnew.aspx?Make=Ford&Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Napa Ford',
-            "url": 'https://www.napaford.com/cars-for-sale-napa-ca.html?Model=Mustang+Mach-E',
+            "url": 'https://www.napaford.com/cars-for-sale-napa-ca.html?Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Santos Ford',
-            "url": 'https://www.santosford.net/searchnew.aspx?Model=Mustang%20Mach-E',
+            "url": 'https://www.santosford.net/searchnew.aspx?Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Greenwood Ford (Hollister)',
-            "url": 'https://www.teamgreenwoodford.com/searchnew.aspx?Model=Mustang+Mach-E',
+            "url": 'https://www.teamgreenwoodford.com/searchnew.aspx?Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Woodland Ford',
-            "url": 'https://www.woodlandford.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "url": 'https://www.woodlandford.com/searchnew.aspx?Model=Maverick',
             "settings": {}
         },
-        {
-            "name": 'Price Ford',
-            "url": 'https://www.pricefordsales.com/searchnew.aspx?Model=Mustang%20Mach-E',
-            "settings": {}
-        },
-        {
-            "name": 'Murdock Ford (Santaquin)',
-            "url": 'https://www.murdockford.com/searchnew.aspx?Model=Mustang%20Mach-E',
-            "settings": {}
-        },
-        {
-            "name": 'Performance Ford (Bountiful)',
-            "url": 'https://www.performancefordbountiful.com/searchnew.aspx?Model=Mustang%20Mach-E',
-            "settings": {}
-        },
+        # {
+        #     "name": 'Price Ford',
+        #     "url": 'https://www.pricefordsales.com/searchnew.aspx?Model=Maverick',
+        #     "settings": {}
+        # },
+        # {
+        #     "name": 'Murdock Ford (Santaquin)',
+        #     "url": 'https://www.murdockford.com/searchnew.aspx?Model=Maverick',
+        #     "settings": {}
+        # },
+        # {
+        #     "name": 'Performance Ford (Bountiful)',
+        #     "url": 'https://www.performancefordbountiful.com/searchnew.aspx?Model=Maverick',
+        #     "settings": {}
+        # },
         {
             "name": 'Future Ford (Roseville)',
-            "url": 'https://www.futureford.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "url": 'https://www.futureford.com/searchnew.aspx?Model=Maverick',
             "settings": {}
         },
         {
             "name": 'Future Ford (Sacramento)',
-            "url": 'https://www.futurefordofsacramento.com/searchnew.aspx?Model=Mustang%20Mach-E',
+            "url": 'https://www.futurefordofsacramento.com/searchnew.aspx?Model=Maverick',
             "settings": {}
         },
     ]

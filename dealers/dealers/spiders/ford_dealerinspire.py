@@ -23,7 +23,7 @@ class FordDealerinspireSpider(scrapy.Spider):
             "url": 'https://www.towneford.com/new-vehicles/',
             "ajax_url": 'https://www.towneford.com/en',
             "settings": {
-                "_referer": "/new-vehicles/mustang-mach-e/"
+                "_referer": "/new-vehicles/maverick/"
             }
         }
         #{

@@ -16,322 +16,322 @@ class FordDealercomSpider(scrapy.Spider):
     dealers = [
         {
             "name": 'Frontier Ford',
-            "url": 'https://www.frontierford.com/new-inventory/index.htm?model=Mustang%20Mach-E&sortBy=internetPrice+desc&',
+            "url": 'https://www.frontierford.com/new-inventory/index.htm?model=Maverick&sortBy=internetPrice+desc&',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Sunnyvale Ford',
-            "url": 'https://www.sunnyvaleford.com/new-inventory/index.htm?model=Mustang%20Mach-E&sortBy=internetPrice+desc&',
+            "url": 'https://www.sunnyvaleford.com/new-inventory/index.htm?model=Maverick&sortBy=internetPrice+desc&',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Putnam Ford of San Mateo',
-            "url": 'https://www.putnamfordsanmateo.com/all-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.putnamfordsanmateo.com/all-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Serramonte Ford (SF)',
-            "url": 'https://www.serramonteford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.serramonteford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Fremont Ford',
-            "url": 'https://www.fremontford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.fremontford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'The Ford Store of San Leandro',
-            "url": 'https://www.fordsanleandro.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.fordsanleandro.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Livermore Ford',
-            "url": 'https://www.livermoreford.net/new-inventory/ford-sale-livermore-ca.htm?make=Ford&model=Mustang%20Mach-E',
+            "url": 'https://www.livermoreford.net/new-inventory/ford-sale-livermore-ca.htm?make=Ford&model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Tracy Ford',
-            "url": 'https://www.tracyford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.tracyford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Walnut Creek Ford',
-            "url": 'https://www.walnutcreekford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.walnutcreekford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Hilltop Ford (Richmond)',
-            "url": 'https://www.hilltopford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.hilltopford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Allstar Ford (Pittsburg)',
-            "url": 'https://allstarford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://allstarford.net/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Bill Brandt Ford (Brentwood)',
-            "url": 'https://www.billbrandtford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.billbrandtford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Manteca Ford',
-            "url": 'https://www.mantecafm.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.mantecafm.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Big Valley Ford (Stockton)',
-            "url": 'https://www.bigvalleyford.biz/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.bigvalleyford.biz/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Rio Vista Ford',
-            "url": 'https://www.riovistaford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.riovistaford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Henry Curtis Ford (Petaluma)',
-            "url": 'https://www.henrycurtisford.com/new-inventory/index.htm?reset=InventoryListing&make=Ford&model=Mustang%20Mach-E',
+            "url": 'https://www.henrycurtisford.com/new-inventory/index.htm?reset=InventoryListing&make=Ford&model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Marin County Ford (Novato)',
-            "url": 'https://www.marincountyford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.marincountyford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Cypress Coast Ford (Seaside)',
-            "url": 'https://www.cypresscoastford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.cypresscoastford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Razzari Ford (Merced)',
-            "url": 'https://www.fordrazzari.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.fordrazzari.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'McAuley Ford (Patterson)',
-            "url": 'https://www.mcauleyford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.mcauleyford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Hansel Ford (Santa Rosa)',
-            "url": 'https://www.hanselford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.hanselford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Zumwalt Ford (Saint Helena)',
-            "url": 'https://www.zumwaltford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.zumwaltford.net/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Santa Maria Ford',
-            "url": 'https://www.santamariaford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.santamariaford.net/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Mullahey Ford (Arroyo Grande)',
-            "url": 'https://www.mullaheyford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.mullaheyford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Perry Ford (San Luis Obispo)',
-            "url": 'https://www.perryfordofsanluis.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.perryfordofsanluis.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Paso Robles Ford',
-            "url": 'https://www.pasoford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.pasoford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
-        {
-            "name": 'Ken Garff Ford (American Fork)',
-            "url": 'https://www.kengarfffordaf.com/new-inventory/index.htm?year=2021&make=Ford&model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Wilson Motor Ford (Logan)',
-            "url": 'https://www.wilsonmotorford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Tim Dahle Ford (Spanish Fork)',
-            "url": 'https://www.timdahleford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Young Automotive Group (Brigham City)',
-            "url": 'https://www.youngfordbrigham.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Crandall Ford (Park City)',
-            "url": 'https://www.crandallford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Young Automotive Group (Morgan)',
-            "url": 'https://www.youngfordmorgan.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Larry H Miller Ford (Provo)',
-            "url": 'https://www.larryhmillerfordprovo.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Labrum Ford (Heber City)',
-            "url": 'https://www.labrumford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Larry H Miller Ford (Salt Lake City)',
-            "url": 'https://www.lhmford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Tooele Ford',
-            "url": 'https://www.tooeleford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Ken Garff Ford (American Fork)',
-            "url": 'https://www.kengarfffordaf.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Larry H Miller Ford (Draper)',
-            "url": 'https://www.lhmforddraper.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Ed Kenley Ford (Layton)',
-            "url": 'https://www.edkenleyford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Young Automotive Group (Ogden)',
-            "url": 'https://www.youngfordogden.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'Ken Garff Ford (West Valley)',
-            "url": 'https://www.kengarffwestvalleyford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
-        {
-            "name": 'St George Ford',
-            "url": 'https://www.stgeorgeford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
-            "settings": {
-                "inventory_query": True,
-            }
-        },
+        # {
+        #     "name": 'Ken Garff Ford (American Fork)',
+        #     "url": 'https://www.kengarfffordaf.com/new-inventory/index.htm?year=2021&make=Ford&model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Wilson Motor Ford (Logan)',
+        #     "url": 'https://www.wilsonmotorford.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Tim Dahle Ford (Spanish Fork)',
+        #     "url": 'https://www.timdahleford.net/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Young Automotive Group (Brigham City)',
+        #     "url": 'https://www.youngfordbrigham.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Crandall Ford (Park City)',
+        #     "url": 'https://www.crandallford.net/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Young Automotive Group (Morgan)',
+        #     "url": 'https://www.youngfordmorgan.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Larry H Miller Ford (Provo)',
+        #     "url": 'https://www.larryhmillerfordprovo.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Labrum Ford (Heber City)',
+        #     "url": 'https://www.labrumford.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Larry H Miller Ford (Salt Lake City)',
+        #     "url": 'https://www.lhmford.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Tooele Ford',
+        #     "url": 'https://www.tooeleford.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Ken Garff Ford (American Fork)',
+        #     "url": 'https://www.kengarfffordaf.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Larry H Miller Ford (Draper)',
+        #     "url": 'https://www.lhmforddraper.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Ed Kenley Ford (Layton)',
+        #     "url": 'https://www.edkenleyford.net/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Young Automotive Group (Ogden)',
+        #     "url": 'https://www.youngfordogden.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'Ken Garff Ford (West Valley)',
+        #     "url": 'https://www.kengarffwestvalleyford.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
+        # {
+        #     "name": 'St George Ford',
+        #     "url": 'https://www.stgeorgeford.com/new-inventory/index.htm?model=Maverick',
+        #     "settings": {
+        #         "inventory_query": True,
+        #     }
+        # },
         {
             "name": 'Auburn Ford',
-            "url": 'https://www.auburnford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.auburnford.net/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Harrold Ford (Sacramento)',
-            "url": 'https://www.harroldford.net/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.harroldford.net/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Folsom Lake Ford',
-            "url": 'https://www.folsomlakeford.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.folsomlakeford.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
         },
         {
             "name": 'Downtown Ford (Sacramento)',
-            "url": 'https://www.dtfords.com/new-inventory/index.htm?model=Mustang%20Mach-E',
+            "url": 'https://www.dtfords.com/new-inventory/index.htm?model=Maverick',
             "settings": {
                 "inventory_query": True,
             }
